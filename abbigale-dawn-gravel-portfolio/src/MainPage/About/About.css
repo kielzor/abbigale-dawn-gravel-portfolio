@@ -1,0 +1,41 @@
+.about-section {
+  background-image: url('../../images/about-background.png');
+  height: 112vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-top-section {
+  display: flex;
+  height: 30%;
+  width: 56%;
+}
+
+.about-header-and-p1-container {
+   width: 70%;
+}
+
+.about-header {
+  text-align: right;
+  padding-right: 5rem;
+  font-size: 5vh;
+  margin: 0 0 10vh 0;
+}
+
+.about-text {
+  font-size: 3.5vh;
+}
+
+.about-headshot {
+  background-color: black;
+  width: 30%;
+  color: white;
+  text-align: center;
+}
+
+.about-lower-sections {
+  height: 10%;
+  width: 56%;
+}

@@ -1,0 +1,37 @@
+.main-nav-header-container {
+  align-items: center;
+  background-color: #000000;
+  display: flex;
+  height: 12vh;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+}
+
+.main-nav-primary-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8rem;
+  width: 55%;
+}
+
+.main-nav-header-logo {
+  cursor: pointer;
+  width: 8rem;
+}
+
+.main-nav-header-text {
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.main-nav-contact-container {
+  padding-right: 8rem;
+}
+
+.main-nav-contact-text {
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+}

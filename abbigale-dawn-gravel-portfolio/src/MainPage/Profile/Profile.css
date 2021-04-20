@@ -1,0 +1,23 @@
+.profile-section {
+  background-image: url('../../images/hero-background.png');
+  height: 112vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.salutation {
+  color: #ffffff;
+  font-size: 5vh;
+  margin: 0 0 5vh 0;
+}
+
+.bio-section {
+  padding-bottom: 12rem;
+}
+
+.bio-text {
+  color: #ffffff;
+  font-size: 6vh;
+  margin: 0 auto;
+}
