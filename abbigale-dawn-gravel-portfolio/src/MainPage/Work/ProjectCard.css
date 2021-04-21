@@ -1,0 +1,23 @@
+.project {
+  height: 25vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-icon {
+  color: white;
+  background-color: black;
+  width: 30%;
+  text-align: center;
+}
+
+.project-text {
+  font-size: 1.65vw;
+  padding-left: 5rem;
+  width: 70%;
+}
+
+.team-container {
+  display: flex;
+}

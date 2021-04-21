@@ -1,59 +1,55 @@
 import './Skills.css'
 
 export const Skills = () => {
+  const uxSkills = [
+    'An understanding of the UX process', 'User research', 
+    'User interviews', 'Proto and user personas', 
+    'Affinity diagrams and empathy maps', 'Storyboards and journey maps',
+    'User flows, site flows, wireframes, and prototypes'
+  ]
+  const uiSkills = [
+    'UI analysis and patternsv', 'Color theory and typography', 
+    'Usability and accessibility heuristics', 'Information architecture and sitemaps',
+    'UI systems and navigation', 'Interaction design and micro interactions', 
+    'Responsive design and UI prototyping', 'UI testing and A/B testing'
+  ]
+  const softSkills = [
+    'Collaboration', 'Leadership and team managing', 'Writing', 
+    'Public speaking/presenting', 'Diplomacy', 'Open to feedback', 
+    'Eager to improve', 'Creativity'
+  ]
+  const proficiencies = [
+    'Figma', 'Adobe XD', 'Miro', 'Trello', 'HTML', 'CSS'
+  ]
+
   return (
     <div className='skills-section'>
       <h1 className='skills-header'>Skills</h1>
       <section className='top-section'>
-        <div className='ux-skills-container'>
+        <div className='skills-containers'>
           <h1 className='section-headers'>UX Skills</h1>
           <ul className='list-container'>
-            <li>An understanding of the UX process</li>
-            <li>User research</li>
-            <li>User interviews</li>
-            <li>Proto and user personas</li>
-            <li>Affinity diagrams and empathy maps</li>
-            <li>Storyboards and journey maps</li>
-            <li>User flows, site flows, wireframes, and prototypes</li>
+            {uxSkills.map(skill => <li key={skill}>{skill}</li>)}
           </ul>
         </div>
-        <div className='ui-skills-container'>
+        <div className='skills-containers'>
           <h1 className='section-headers'>UI Skills</h1>
           <ul className='list-container'>
-            <li>UI analysis and patterns</li>
-            <li>Color theory and typography</li>
-            <li>Usability and accessibility heuristics</li>
-            <li>Information architecture and sitemaps</li>
-            <li>UI systems and navigation</li>
-            <li>Interaction design and micro interactions</li>
-            <li>Responsive design and UI prototyping</li>
-            <li>UI testing and A/B testing</li>
+            {uiSkills.map(skill => <li key={skill}>{skill}</li>)}
           </ul>
         </div>
       </section>
       <section className='bottom-section'>
-        <div className='soft-skills-container'>
+        <div className='skills-containers'>
           <h1 className='section-headers'>Soft Skills</h1>
           <ul className='list-container'>
-            <li>Collaboration</li>
-            <li>Leadership and team managing</li>
-            <li>Writing</li>
-            <li>Public speaking/presenting</li>
-            <li>Diplomacy</li>
-            <li>Open to feedback</li>
-            <li>Eager to improve</li>
-            <li>Creativity</li>
+            {softSkills.map(skill => <li key={skill}>{skill}</li>)}
           </ul>
         </div>
-        <div className='proficiencies-container'>
+        <div className='skills-containers'>
           <h1 className='section-headers'>Proficiencies</h1>
           <ul className='list-container'>
-            <li>Figma</li>
-            <li>Adobe XD</li>
-            <li>Miro</li>
-            <li>Trello</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            {proficiencies.map(skill => <li key={skill}>{skill}</li>)}
           </ul>
         </div>
       </section>
