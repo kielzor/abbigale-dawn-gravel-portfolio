@@ -1,0 +1,63 @@
+.skills-section {
+  background-image: url('../../images/skills-background.png');
+  height: 112vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-header {
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  border-bottom: 3px solid #ffffff;
+  width: 80%;
+  padding: 3rem 0;
+  font-weight: 500;
+  font-size: 3.5vw;
+}
+
+.top-section {
+  display: flex;
+  width: 80%;
+  margin-top: 3rem;
+}
+
+.ux-skills-container {
+  width: 50%;
+  height: 40vh;
+}
+
+.ui-skills-container {
+  width: 50%;
+  height: 40vh;
+}
+
+.bottom-section {
+  display: flex;
+  height: 40vh;
+  width: 80%;
+}
+
+.soft-skills-container {
+  width: 50%;
+  height: 40vh;
+}
+
+.proficiencies-container {
+  width: 50%;
+  height: 40vh;
+}
+
+.section-headers {
+  font-size: 2.5vw;
+  color: #ffffff;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.list-container {
+  padding-left: 5rem;
+  color: #ffffff;
+  font-size: 1.25vw;
+}

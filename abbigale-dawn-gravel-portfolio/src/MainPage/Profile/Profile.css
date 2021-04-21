@@ -8,8 +8,8 @@
 
 .salutation {
   color: #ffffff;
-  font-size: 5vh;
-  margin: 0 0 5vh 0;
+  font-size: 2.5vw;
+  margin: 0 0 2.5rem 0;
 }
 
 .bio-section {
@@ -18,6 +18,6 @@
 
 .bio-text {
   color: #ffffff;
-  font-size: 6vh;
+  font-size: 3vw;
   margin: 0 auto;
 }

@@ -1,6 +1,7 @@
 import { MainNavHeader } from './MainNavHeader/MainNavHeader'
 import { Profile } from './Profile/Profile'
 import { About } from './About/About'
+import { Skills } from './Skills/Skills'
 
 import './MainPage.css'
 
@@ -14,7 +15,7 @@ export const MainPage = () => {
       <MainNavHeader handleScroll={handleScroll}></MainNavHeader>
       <Profile></Profile>
       <About></About>
-      <div className='skills-section'></div>
+      <Skills></Skills>
       <div className='case-studies-section'></div>
       <div className='contact-section'></div>
     </div>
