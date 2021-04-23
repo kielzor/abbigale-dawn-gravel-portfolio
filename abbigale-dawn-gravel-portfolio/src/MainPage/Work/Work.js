@@ -32,7 +32,7 @@ export class Work extends React.Component {
           {this.workToDisplay % 3 === 0 && <Articles></Articles>}
           <img  src={arrow} 
                 alt='Arrow' 
-                className='arrow right-arrow' 
+                className='arrow' 
                 onClick={() => handleNav(1)}/>
         </div>
       </div>
