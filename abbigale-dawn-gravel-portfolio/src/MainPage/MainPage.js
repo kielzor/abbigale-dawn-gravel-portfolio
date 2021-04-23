@@ -1,5 +1,3 @@
-import React, { useRef } from "react"
-
 import { MainNavHeader } from './MainNavHeader/MainNavHeader'
 import { Profile } from './Profile/Profile'
 import { About } from './About/About'
@@ -10,11 +8,6 @@ import { Contact } from './Contact/Contact'
 import './MainPage.css'
 
 export const MainPage = () => {
-  const profile = useRef()
-  const about = useRef()
-  const skills = useRef()
-  const work = useRef()
-  const contact = useRef()
 
   const handleScroll = position => {
     const scrollTo = document.querySelector(`.${position}`)
