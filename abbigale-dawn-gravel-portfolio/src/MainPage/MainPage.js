@@ -10,7 +10,7 @@ import './MainPage.css'
 import React from 'react'
 
 export const MainPage = () => {
-  const handleScroll = position => {
+  const handleAutoScroll = position => {
     const scrollTo = document.querySelector(`.${position}`)
     const distance = (position === 'skills' || 
                       position === 'work' ||
@@ -21,7 +21,7 @@ export const MainPage = () => {
 
   return (
     <div>
-      <MainNavHeader handleScroll={handleScroll}></MainNavHeader>
+      <MainNavHeader handleAutoScroll={handleAutoScroll}></MainNavHeader>
       <div className='profile'><Profile></Profile></div>
       <div className='about'><About></About></div>
       <div className='skills'><Skills></Skills></div>

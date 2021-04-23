@@ -2,7 +2,7 @@ import './MainNavHeader.css'
 
 import logo from '../../images/logo.png'
 
-export const MainNavHeader = ({ handleScroll }) => {
+export const MainNavHeader = ({ handleAutoScroll }) => {
   const handleResumeDownload = () => {
     console.log('resume download')
   }
@@ -12,19 +12,19 @@ export const MainNavHeader = ({ handleScroll }) => {
       <div className='main-nav-primary-container'>
         <img src={logo} alt='Abbigale Dawn Personal Logo'
             className='main-nav-header-logo'
-            onClick={() => handleScroll('profile')}
+            onClick={() => handleAutoScroll('profile')}
             />
         <h2 className='main-nav-header-text'
-            onClick={() => handleScroll('about')}
+            onClick={() => handleAutoScroll('about')}
             >About</h2>
         <h2 className='main-nav-header-text'
-            onClick={() => handleScroll('skills')}
+            onClick={() => handleAutoScroll('skills')}
             >Skills</h2>
         <h2 className='main-nav-header-text'
-            onClick={() => handleScroll('work')}
+            onClick={() => handleAutoScroll('work')}
             >Work</h2>
         <h2 className='main-nav-header-text'
-            onClick={() => handleScroll('contact')}
+            onClick={() => handleAutoScroll('contact')}
             >Contact</h2>
       </div>
       <h2 className='main-nav-resume-text'
