@@ -1,0 +1,41 @@
+.footer-section {
+  align-items: center;
+  background-color: #cbcbcb;
+  display: flex;
+  flex-direction: column;
+  height: 22vh;
+}
+
+.footer-info-section {
+  border-bottom: 3px solid #ffffff;
+  display: flex;
+  height: 15vh;
+  justify-content: center;
+  width: 80%;
+}
+
+.footer-info-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer-logo {
+  border-radius: 30px;
+  height: 6rem;
+  width: 6rem;
+}
+
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright-text {
+  font-weight: 400;
+}
+
+.footer-links {
+  color: inherit;
+}

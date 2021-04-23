@@ -18,10 +18,18 @@
 .contact-header {
   font-size: 3vw;
   font-weight: 500;
+  border-bottom: 3px solid #ffffff;
+  text-align: center;
+  padding-bottom: 2rem;
+  width: 100%;
 }
 
 .contact-text {
   font-size: 3vw;
   font-weight: 500;
-  padding-bottom: 20rem;
+}
+
+.contact-info-container {
+  font-size: 1.5vw;
+  width: 100%;
 }

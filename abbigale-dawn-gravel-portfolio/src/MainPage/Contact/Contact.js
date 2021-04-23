@@ -9,8 +9,12 @@ export const Contact = () => {
           I would love to chat about design, whether 
           in an interview or over coffee!
         </h1>
-        <div>
-
+        <div className='contact-info-container'>
+          <p className='contact-info'>Text or Call: (720) 774-9905</p>
+          <p className='contact-info'>
+            Email: gravelad@gmail.com
+            {/* <a href='gravelad@gmail.com'>gravelad@gmail.com</a>  */}
+          </p>
         </div>
       </div>
     </div>
