@@ -1,0 +1,27 @@
+.contact-section {
+  background-image: url('../../images/contact-background.png');
+  height: 112vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  height: 90vh;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.contact-header {
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.contact-text {
+  font-size: 3vw;
+  font-weight: 500;
+  padding-bottom: 20rem;
+}
