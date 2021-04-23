@@ -5,6 +5,7 @@ import { Profile } from './Profile/Profile'
 import { About } from './About/About'
 import { Skills } from './Skills/Skills'
 import { Work } from './Work/Work'
+import { Contact } from './Contact/Contact'
 
 import './MainPage.css'
 
@@ -16,35 +17,19 @@ export const MainPage = () => {
   const contact = useRef()
 
   const handleScroll = position => {
-    switch (position) {
-      case 'profile':
-        profile.current.scrollIntoView({ behavior: 'smooth' })
-        break
-      case 'about':
-        about.current.scrollIntoView({ behavior: 'smooth' })
-        break
-      case 'skills':
-        skills.current.scrollIntoView({ behavior: 'smooth' })
-        break
-      case 'work':
-        work.current.scrollIntoView({ behavior: 'smooth' })
-        break
-      case 'contact':
-        contact.current.scrollIntoView({ behavior: 'smooth' })
-        break
-      default:
-        console.error('Error occurred when trying to scroll')
-    }
+    const scrollTo = document.querySelector(`.${position}`)
+    const distance = (position === 'skills' || position === 'work') ? 100 : -100
+    window.scroll({ top: (scrollTo.offsetTop + distance), left: 0, behavior: 'smooth' })
   }
 
   return (
     <div>
       <MainNavHeader handleScroll={handleScroll}></MainNavHeader>
-      <div ref={profile}><Profile></Profile></div>
-      <div ref={about}><About></About></div>
-      <div ref={skills}><Skills></Skills></div>
-      <div ref={work}><Work></Work></div>
-      <div ref={contact} className='contact-section'></div>
+      <div className='profile'><Profile></Profile></div>
+      <div className='about'><About></About></div>
+      <div className='skills'><Skills></Skills></div>
+      <div className='work'><Work></Work></div>
+      <div className='contact'><Contact></Contact></div>
     </div>
   )
 }
