@@ -1,7 +1,14 @@
 .case-studies-section {
   align-items: center;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
-  height: 83vh;
   width: 92%;
 }
+
+/* 
+.project-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */

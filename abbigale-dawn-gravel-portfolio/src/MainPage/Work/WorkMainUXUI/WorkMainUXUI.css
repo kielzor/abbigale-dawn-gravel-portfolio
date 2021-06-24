@@ -1,0 +1,11 @@
+.ux-ui-section-container {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ux-ui-text {
+  font-size: 1.5vw;
+}

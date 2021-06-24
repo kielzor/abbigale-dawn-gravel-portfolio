@@ -24,8 +24,7 @@ export const CaseStudies = () => {
 
   return (
     <div className='case-studies-section'>
-      <h1>Case Studies</h1>
-      {caseStudies.map((project, index) => <CaseStudiesCard key={project['project']} project={project} index={index}></CaseStudiesCard>)}
+      {caseStudies.map(project=> <CaseStudiesCard key={project['project']} project={project}></CaseStudiesCard>)}
     </div>
   )
 }

@@ -1,35 +1,82 @@
-.work-section {
-  align-items: center;
-  background-image: url('../../images/case-studies-background.png');
-  display: flex;
-  flex-direction: column;
-  min-height: 112vh;
+.ux-ui-header-container {
+  background-image: url("../../images/uxui-header-flowers.png");
 }
 
-.work-header {
-  border-bottom: 3px solid #000000;
-  font-size: 3.5vw;
-  font-weight: 500;
-  height: 5rem;
-  margin: 0;
-  padding: 4rem 0;
-  text-align: center;
+.tech-skills-header-container {
+  background-image: url("../../images/tech-skills-flowers.png");
+}
+
+.soft-skills-header-container {
+  background-image: url("../../images/soft-skills-flowers.png");
+}
+
+.case-studies-header-container {
+  background-image: url("../../images/case-studies-flowers.png");
+}
+
+.work-header-container {
+  margin-top: 4vh;
+  width: 100%;
+  height: 24vh;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.center-work-header {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-work-header {
   width: 80%;
 }
 
+.work-header-text {
+  font-size: 2.5vw;
+  color: #ffffff;
+  font-weight: 400;
+}
+
 .work-container {
-  align-items: center;
   display: flex;
-  justify-content: center;
-  width: 85%;
+  align-items: center;
+}
+
+.arrow-spacing {
+  width: 10%;
 }
 
 .arrow {
   cursor: pointer;
-  height: 6rem;
-  width: 4rem;
+  height: 4rem;
+  min-width: 4rem;
+  padding: 0 3rem;
+}
+
+.main-work-section {
+  width: 80%;
+  height: 65vh;
 }
 
 .left-arrow {
-  transform: rotate(180deg)
+  transform: rotate(180deg);
+}
+
+.case-studies-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.case-studies-button {
+  background-color: #a46262;
+  color: #ffffff;
+  font-size: 1vw;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 15px;
+  cursor: pointer;
 }
