@@ -51,7 +51,7 @@ export class MainNavHeader extends React.Component {
                     className="sub-nav-text"
                     onClick={() => this.handleNavClick("work")}
                   >
-                    Tech
+                    UX/UI
                   </h2>
                   <h2
                     className="sub-nav-text"
@@ -90,12 +90,12 @@ export class MainNavHeader extends React.Component {
               alt="LinkedIn logo"
               onClick={() => window.open(logoLinks.linkedIn, "_blank")}
             />
-            <img
+            {/* <img
               className="social-media-logo"
               src={googlePlus}
               alt="Google Logo"
               onClick={() => window.open(logoLinks.googlePlus, "_blank")}
-            />
+            /> */}
             <img
               className="social-media-logo"
               src={spotify}

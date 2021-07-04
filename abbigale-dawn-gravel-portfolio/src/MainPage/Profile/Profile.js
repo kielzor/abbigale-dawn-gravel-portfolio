@@ -24,7 +24,7 @@ export const Profile = ({ handleNavClick }) => {
         </span>
         &{" "}
         <span className="bold-text" onClick={() => handleNavClick("tbd")}>
-          empathetically
+          creatively
         </span>
         .
       </p>
