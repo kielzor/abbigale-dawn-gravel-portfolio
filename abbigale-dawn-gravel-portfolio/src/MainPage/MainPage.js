@@ -1,15 +1,14 @@
 import { MainNavHeader } from "./MainNavHeader/MainNavHeader";
 import { Profile } from "./Profile/Profile";
-
+import { Music } from "./Music/Music";
 import { CaseStudies } from "./Work/CaseStudies/CaseStudies";
 import { TechSkills } from "./Work/TechSkills/TechSkills";
 import { SoftSkills } from "./Work/SoftSkills/SoftSkills";
 import { WorkMainUXUI } from "./Work/WorkMainUXUI/WorkMainUXUI";
-import arrow from "../images/arrow.png";
-
-// import { Work } from "./Work/Work";
 import { Contact } from "./Contact/Contact";
 import { Footer } from "./Footer/Footer";
+
+import arrow from "../images/arrow.png";
 
 import "./MainPage.css";
 import React from "react";
@@ -49,7 +48,9 @@ export class MainPage extends React.Component {
         this.setState({ workToDisplay: this.workToDisplay });
       } else if (position === "realignWork") position = "work";
 
+      console.log(position);
       const scrollTo = document.querySelector(`.${position}`);
+      console.log(scrollTo);
 
       if (!scrollTo) return;
 
@@ -127,10 +128,11 @@ export class MainPage extends React.Component {
               )}
             </div>
           </div>
+          <div className="music">
+            <Music></Music>
+          </div>
         </div>
-        {/* <div className='about'><About></About></div>
-      <div className='skills'><Skills></Skills></div>
-      <div className='contact'><Contact></Contact></div>
+        {/*<div className='contact'><Contact></Contact></div>
       <Footer></Footer> */}
       </div>
     );

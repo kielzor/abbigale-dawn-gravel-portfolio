@@ -21,7 +21,6 @@ export class MainNavHeader extends React.Component {
     };
     const logoLinks = {
       linkedIn: "https://www.linkedin.com/in/abbigale-gravel-3287711b8/",
-      googlePlus: "https://www.google.com/",
       spotify: "https://open.spotify.com/artist/7qM84pzkfHaWQmxW9KoE8P",
     };
 
