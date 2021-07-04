@@ -6,7 +6,7 @@ export const Music = () => {
   return (
     <div className="music-container">
       <div className="music-header-container">
-        <h1 className="music-header-text">Music</h1>
+        <h1 className="music-header-text">MUSIC</h1>
       </div>
       <div className="main-music-section">
         <p>

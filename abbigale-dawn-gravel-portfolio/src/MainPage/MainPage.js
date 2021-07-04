@@ -12,6 +12,7 @@ import arrow from "../images/arrow.png";
 
 import "./MainPage.css";
 import React from "react";
+import { Writing } from "./Writing/Writing";
 
 export class MainPage extends React.Component {
   constructor() {
@@ -130,6 +131,9 @@ export class MainPage extends React.Component {
           </div>
           <div className="music">
             <Music></Music>
+          </div>
+          <div className="writing">
+            <Writing></Writing>
           </div>
         </div>
         {/*<div className='contact'><Contact></Contact></div>

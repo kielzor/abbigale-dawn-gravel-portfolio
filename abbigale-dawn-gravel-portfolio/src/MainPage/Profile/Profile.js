@@ -23,7 +23,7 @@ export const Profile = ({ handleNavClick }) => {
           audibly,{" "}
         </span>
         &{" "}
-        <span className="bold-text" onClick={() => handleNavClick("tbd")}>
+        <span className="bold-text" onClick={() => handleNavClick("writing")}>
           creatively
         </span>
         .
