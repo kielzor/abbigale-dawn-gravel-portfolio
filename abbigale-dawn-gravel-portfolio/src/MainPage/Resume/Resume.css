@@ -1,0 +1,61 @@
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-header {
+  background-image: url("../../images/resume-flowers.png");
+  margin-top: 4vh;
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.resume-header-text {
+  color: #ffffff;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+.resume-name-text {
+  font-weight: 400;
+  color: #eeeeee;
+}
+
+.resume-main-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #eeeeee;
+}
+
+.work-header {
+  font-size: 1.25vw;
+}
+
+.resume-main-columns {
+  width: 35%;
+}
+
+.experience-headers {
+  margin-bottom: 0;
+}
+
+.work-sub-text {
+  margin: 0;
+}
+
+.work-sub-header {
+  font-weight: 500;
+}
+
+.toolbox-headers {
+  color: #eeeeee;
+  font-weight: 400;
+  font-size: 1.1vw;
+}

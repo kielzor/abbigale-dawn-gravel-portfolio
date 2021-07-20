@@ -1,10 +1,12 @@
 .full-page-container {
   display: flex;
+  font-family: "Avenir Next";
+  line-height: 30px;
+  letter-spacing: 0.08em;
 }
 
 .main-section-container {
   background-color: #000000;
-  height: 5735px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -25,6 +27,15 @@
 
 .writing {
   width: 100%;
+}
+
+.resume {
+  width: 100%;
+}
+
+.contact {
+  margin-top: 10vh;
+  padding-bottom: 3vh;
 }
 
 .ux-ui-header-container {

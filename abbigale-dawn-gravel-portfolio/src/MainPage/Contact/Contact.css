@@ -1,35 +1,4 @@
-.contact-section {
-  background-image: url('../../images/contact-background.png');
-  height: 112vh;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-container {
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-  height: 90vh;
-  align-items: center;
-  flex-direction: column;
-  color: #ffffff;
-}
-
-.contact-header {
-  font-size: 3vw;
-  font-weight: 500;
-  border-bottom: 3px solid #ffffff;
-  text-align: center;
-  padding-bottom: 2rem;
-  width: 100%;
-}
-
-.contact-text {
-  font-size: 3vw;
-  font-weight: 500;
-}
-
-.contact-info-container {
-  font-size: 1.5vw;
-  width: 100%;
+.contact-sub-header-text {
+  margin: 0.2vh 0;
+  color: #eeeeee;
 }

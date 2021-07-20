@@ -13,6 +13,7 @@ import arrow from "../images/arrow.png";
 import "./MainPage.css";
 import React from "react";
 import { Writing } from "./Writing/Writing";
+import { Resume } from "./Resume/Resume";
 
 export class MainPage extends React.Component {
   constructor() {
@@ -135,9 +136,13 @@ export class MainPage extends React.Component {
           <div className="writing">
             <Writing></Writing>
           </div>
+          <div className="resume">
+            <Resume></Resume>
+          </div>
+          <div className="contact">
+            <Contact></Contact>
+          </div>
         </div>
-        {/*<div className='contact'><Contact></Contact></div>
-      <Footer></Footer> */}
       </div>
     );
   }

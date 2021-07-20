@@ -1,7 +1,7 @@
 .main-nav-container {
   background-image: url("../../images/left-nav-background.png");
   width: 350px;
-  height: 5735px;
+  background-size: cover;
 }
 
 .main-nav-primary-container {

@@ -87,7 +87,7 @@ export class MainNavHeader extends React.Component {
               className="social-media-logo"
               src={linkedIn}
               alt="LinkedIn logo"
-              onClick={() => window.open(logoLinks.linkedIn, "_blank")}
+              onClick={() => window.open(logoLinks.linkedIn)}
             />
             {/* <img
               className="social-media-logo"
@@ -99,7 +99,7 @@ export class MainNavHeader extends React.Component {
               className="social-media-logo"
               src={spotify}
               alt="Spotify Logo"
-              onClick={() => window.open(logoLinks.spotify, "_blank")}
+              onClick={() => window.open(logoLinks.spotify)}
             />
           </div>
           <p className="copyright-text">Copyright 2021</p>

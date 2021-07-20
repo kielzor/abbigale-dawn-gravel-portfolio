@@ -14,12 +14,12 @@ export const Music = () => {
           Oklahoma, where I traveled throughout the counties performing at a
           variety of venues and locations. I managed my own booking, press, and
           merchandise, then went on to manage a full band.
-          <p>
-            I currently make music in Colorado as a solo artist along with duo,
-            trio, and full band setups. I enjoy producing my own tracks and
-            organizing my own releases, along with designing and creating my own
-            merch.
-          </p>
+        </p>
+        <p>
+          I currently make music in Colorado as a solo artist along with duo,
+          trio, and full band setups. I enjoy producing my own tracks and
+          organizing my own releases, along with designing and creating my own
+          merch.
         </p>
         <div className="split-music-section-view">
           <p className="split-music-section-text">
