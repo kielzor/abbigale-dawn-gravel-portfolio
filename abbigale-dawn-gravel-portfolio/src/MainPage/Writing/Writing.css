@@ -42,3 +42,21 @@
   height: 45vh;
   background-color: grey;
 }
+
+@media screen and (max-width: 1200px) {
+  .writing-header-container {
+    height: 10vh;
+  }
+
+  .writing-header-text {
+    font-size: 4vw;
+  }
+
+  .main-writing-section {
+    font-size: 2vw;
+  }
+
+  .writing-image {
+    height: 30vh;
+  }
+}

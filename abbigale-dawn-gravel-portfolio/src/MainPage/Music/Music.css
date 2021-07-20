@@ -58,4 +58,28 @@
   width: 14vw;
   border-radius: 15px;
   cursor: pointer;
+  border: solid 0px #a46262;
+}
+
+@media screen and (max-width: 1200px) {
+  .music-header-container {
+    height: 10vh;
+  }
+
+  .music-header-text {
+    font-size: 4vw;
+  }
+
+  .main-music-section {
+    font-size: 2vw;
+  }
+
+  .music-button {
+    font-size: 2vw;
+    width: 24vw;
+  }
+
+  .split-music-section-view {
+    height: 20vh;
+  }
 }

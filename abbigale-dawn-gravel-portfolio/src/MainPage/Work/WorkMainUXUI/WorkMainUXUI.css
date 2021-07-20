@@ -9,3 +9,12 @@
 .ux-ui-text {
   font-size: 1.5vw;
 }
+
+.design-process-diamonds {
+  width: 80%;
+}
+@media screen and (max-width: 1200px) {
+  .ux-ui-text {
+    font-size: 2vw;
+  }
+}

@@ -59,3 +59,30 @@
   font-weight: 400;
   font-size: 1.1vw;
 }
+
+@media screen and (max-width: 1200px) {
+  .resume-header {
+    height: 12vh;
+  }
+
+  .resume-header-text {
+    font-size: 4vw;
+  }
+
+  .mobile-resume-sub-text {
+    font-size: 1.75vw;
+  }
+
+  .experience-headers,
+  .toolbox-headers {
+    font-size: 2vw;
+  }
+
+  .work-header {
+    font-size: 2.5vw;
+  }
+
+  .resume-name-text {
+    font-size: 2vw;
+  }
+}

@@ -21,7 +21,11 @@ export const WorkMainUXUI = () => {
           inventing thoughtful solutions to all kinds of pain points.
         </p>
       </div>
-      <img src={designProcess} />
+      <img
+        className="design-process-diamonds"
+        src={designProcess}
+        alt="Design Process Diamonds"
+      />
     </div>
   );
 };

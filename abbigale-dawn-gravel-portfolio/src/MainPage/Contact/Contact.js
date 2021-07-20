@@ -7,7 +7,13 @@ export const Contact = () => {
         Phone: (720) 774-9905 - Email: abbigalegravel@gmail.com
       </p>
       <p className="contact-sub-header-text">
-        LinkedIn: https://www.linkedin.com/in/abbigale-gravel-3287711b8/
+        LinkedIn: &nbsp;
+        <a
+          href="https://www.linkedin.com/in/abbigale-gravel-3287711b8/"
+          target="_blank"
+        >
+          https://www.linkedin.com/in/abbigale-gravel-3287711b8/
+        </a>
       </p>
     </div>
   );

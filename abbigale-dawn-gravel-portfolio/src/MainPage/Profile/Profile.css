@@ -1,3 +1,7 @@
+.profile-section {
+  width: 100%;
+}
+
 .bio-header-container {
   background-image: url("../../images/hero-flowers.png");
   background-size: cover;
@@ -6,7 +10,7 @@
 }
 
 .top-bio-text {
-  padding-top: 8rem;
+  padding: 8rem 0 1rem 0;
 }
 
 .bio-text {
@@ -38,6 +42,20 @@
 }
 
 .profile-pic {
-  height: 40rem;
+  width: 60%;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .bio-header-container {
+    height: 10vh;
+  }
+
+  .top-bio-text {
+    padding: 2rem 0 0 0;
+  }
+
+  .bio-text {
+    font-size: 3vw;
+  }
 }
