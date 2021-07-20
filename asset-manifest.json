@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/abbigale-dawn-gravel-portfolio/static/css/main.ba5697dd.chunk.css",
-    "main.js": "/abbigale-dawn-gravel-portfolio/static/js/main.72151210.chunk.js",
-    "main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/main.72151210.chunk.js.map",
+    "main.css": "/abbigale-dawn-gravel-portfolio/static/css/main.d466aa7c.chunk.css",
+    "main.js": "/abbigale-dawn-gravel-portfolio/static/js/main.b7ba25bb.chunk.js",
+    "main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/main.b7ba25bb.chunk.js.map",
     "runtime-main.js": "/abbigale-dawn-gravel-portfolio/static/js/runtime-main.d7eca76d.js",
     "runtime-main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/runtime-main.d7eca76d.js.map",
     "static/js/2.ddff19e2.chunk.js": "/abbigale-dawn-gravel-portfolio/static/js/2.ddff19e2.chunk.js",
@@ -10,13 +10,12 @@
     "static/js/3.cc536030.chunk.js": "/abbigale-dawn-gravel-portfolio/static/js/3.cc536030.chunk.js",
     "static/js/3.cc536030.chunk.js.map": "/abbigale-dawn-gravel-portfolio/static/js/3.cc536030.chunk.js.map",
     "index.html": "/abbigale-dawn-gravel-portfolio/index.html",
-    "static/css/main.ba5697dd.chunk.css.map": "/abbigale-dawn-gravel-portfolio/static/css/main.ba5697dd.chunk.css.map",
+    "static/css/main.d466aa7c.chunk.css.map": "/abbigale-dawn-gravel-portfolio/static/css/main.d466aa7c.chunk.css.map",
     "static/js/2.ddff19e2.chunk.js.LICENSE.txt": "/abbigale-dawn-gravel-portfolio/static/js/2.ddff19e2.chunk.js.LICENSE.txt",
     "static/media/MainPage.css": "/abbigale-dawn-gravel-portfolio/static/media/uxui-header-flowers.a081a022.png",
     "static/media/design-process.f2cb783a.png": "/abbigale-dawn-gravel-portfolio/static/media/design-process.f2cb783a.png",
-    "static/media/Profile.css": "/abbigale-dawn-gravel-portfolio/static/media/hero-flowers.9751fd2f.png",
+    "static/media/MobileProfile.css": "/abbigale-dawn-gravel-portfolio/static/media/hero-flowers.9751fd2f.png",
     "static/media/MainNavHeader.css": "/abbigale-dawn-gravel-portfolio/static/media/left-nav-background.9707d7d7.png",
-    "static/media/logo.07a9bcc5.png": "/abbigale-dawn-gravel-portfolio/static/media/logo.07a9bcc5.png",
     "static/media/Music.css": "/abbigale-dawn-gravel-portfolio/static/media/music-flowers.df747be5.png",
     "static/media/profile.0d2c0064.png": "/abbigale-dawn-gravel-portfolio/static/media/profile.0d2c0064.png",
     "static/media/Resume.css": "/abbigale-dawn-gravel-portfolio/static/media/resume-flowers.ae94dfba.png",
@@ -25,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.d7eca76d.js",
     "static/js/2.ddff19e2.chunk.js",
-    "static/css/main.ba5697dd.chunk.css",
-    "static/js/main.72151210.chunk.js"
+    "static/css/main.d466aa7c.chunk.css",
+    "static/js/main.b7ba25bb.chunk.js"
   ]
 }
