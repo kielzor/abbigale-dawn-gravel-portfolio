@@ -45,17 +45,3 @@
   width: 60%;
   text-align: center;
 }
-
-@media screen and (max-width: 1200px) {
-  .bio-header-container {
-    height: 10vh;
-  }
-
-  .top-bio-text {
-    padding: 2rem 0 0 0;
-  }
-
-  .bio-text {
-    font-size: 3vw;
-  }
-}
