@@ -47,6 +47,10 @@
   width: 100%;
 }
 
+.music-image {
+  width: 100%;
+}
+
 .music-button-container {
   width: 100%;
   display: flex;

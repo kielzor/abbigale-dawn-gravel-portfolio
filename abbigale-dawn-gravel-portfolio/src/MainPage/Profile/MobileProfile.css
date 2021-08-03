@@ -10,7 +10,7 @@
 }
 
 .mobile-top-bio-text {
-  padding: 2rem 0 0 0;
+  padding: 6vh 0 0 0;
 }
 
 .mobile-bio-text {
@@ -37,12 +37,12 @@
 .mobile-profile-pic-container {
   width: 100%;
   display: flex;
-  padding: 2rem 0;
+  padding: 5vh 0;
   justify-content: center;
 }
 
 .mobile-profile-pic {
   width: 80%;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 4vh;
 }

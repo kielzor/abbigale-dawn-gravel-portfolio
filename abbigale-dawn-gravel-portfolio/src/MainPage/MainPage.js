@@ -25,7 +25,7 @@ export const MainPage = () => {
       handleNavClick("work");
       setWorkToDisplay(3);
     }
-  }, [history.action]);
+  }, [history]);
 
   const handleWorkSectionNav = (direction) => {
     if (direction === 3 || workToDisplay === 0) {
@@ -108,16 +108,14 @@ export const MainPage = () => {
                   {workToDisplay === 2 && <SoftSkills></SoftSkills>}
                   {workToDisplay === 3 && <CaseStudies></CaseStudies>}
                 </div>
-                <div className="arrow-spacing">
-                  {workToDisplay !== 3 && (
-                    <img
-                      src={arrow}
-                      alt="Arrow"
-                      className="arrow"
-                      onClick={() => handleWorkSectionNav(1)}
-                    />
-                  )}
-                </div>
+                {workToDisplay !== 3 && (
+                  <img
+                    src={arrow}
+                    alt="Arrow"
+                    className="arrow"
+                    onClick={() => handleWorkSectionNav(1)}
+                  />
+                )}
               </div>
               {workToDisplay !== 3 && (
                 <div className="case-studies-button-container">

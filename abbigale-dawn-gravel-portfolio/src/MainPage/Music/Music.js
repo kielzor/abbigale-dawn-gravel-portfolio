@@ -31,7 +31,11 @@ export const Music = () => {
           </p>
           <div className="music-section-image-container">
             <div className="music-image-container">
-              <img src={musicImages} alt="Full band images" />
+              <img
+                className="music-image"
+                src={musicImages}
+                alt="Full band images"
+              />
             </div>
           </div>
         </div>

@@ -14,18 +14,21 @@
   font-weight: 200;
 }
 
+.project-image-container {
+  width: 40%;
+}
+
 .nasa-image {
-  width: 32%;
-  padding-right: 7vw;
+  width: 18vw;
 }
 
 .inkbook-image {
-  width: 30%;
+  padding-left: 6vw;
+  width: 18vw;
 }
 
 .bloom-image {
-  width: 45%;
-  padding-right: 4vw;
+  width: 24vw;
 }
 
 @media screen and (max-width: 1200px) {

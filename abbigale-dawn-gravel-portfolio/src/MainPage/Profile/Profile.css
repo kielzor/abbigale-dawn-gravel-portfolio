@@ -10,7 +10,7 @@
 }
 
 .top-bio-text {
-  padding: 8rem 0 1rem 0;
+  padding: 10vh 0 2vh 0;
 }
 
 .bio-text {
@@ -37,7 +37,7 @@
 .profile-pic-container {
   width: 100%;
   display: flex;
-  padding: 2rem 0;
+  padding: 4vh 0;
   justify-content: center;
 }
 

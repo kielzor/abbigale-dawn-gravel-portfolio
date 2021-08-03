@@ -7,31 +7,28 @@
 
 .description-container {
   width: 60%;
-  padding-top: 5vh;
   color: #cccccc;
   font-size: 1vw;
   font-weight: 200;
 }
 
 .case-studies-description-text {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5vh;
 }
 
 .team-and-type-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
 }
 
-.arrow-spacing {
+.case-studies-arrow-spacing {
   width: 10%;
 }
 
-.arrow {
+.case-studies-arrow {
   cursor: pointer;
-  height: 4rem;
-  min-width: 4rem;
-  padding: 0 3rem;
+  width: 3vw;
+  padding: 0 3vw;
   outline: none;
 }
 
@@ -43,12 +40,10 @@
 }
 
 .main-case-studies-content {
-  /* background-color: red; */
-  /* width: 65%; */
   height: 45vh;
-  margin: 0 10rem;
+  margin: 0 10vw;
 }
 
-.left-arrow {
+.case-studies-left-arrow {
   transform: rotate(180deg);
 }

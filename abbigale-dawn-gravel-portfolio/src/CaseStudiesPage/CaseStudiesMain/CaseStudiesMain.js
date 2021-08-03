@@ -32,16 +32,17 @@ export const CaseStudiesMain = ({ caseStudyData }) => {
         </div>
       </div>
       <div className="case-studies-main-section">
-        <div className="arrow-spacing">
+        <div className="case-studies-arrow-spacing">
           <img
             src={arrow}
             alt="Arrow"
-            className="arrow left-arrow"
+            className="case-studies-arrow case-studies-left-arrow"
             onClick={() => handleImageSwitch(-1)}
           />
         </div>
         <div className="main-case-studies-content">
           <img
+            className="case-studies-image"
             src={
               process.env.PUBLIC_URL +
               "/project-images/" +
@@ -52,11 +53,11 @@ export const CaseStudiesMain = ({ caseStudyData }) => {
             alt="**Project Icon**"
           />
         </div>
-        <div className="arrow-spacing">
+        <div className="case-studies-arrow-spacing">
           <img
             src={arrow}
             alt="Arrow"
-            className="arrow"
+            className="case-studies-arrow"
             onClick={() => handleImageSwitch(1)}
           />
         </div>

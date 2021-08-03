@@ -15,10 +15,11 @@ export const CaseStudiesCard = ({ project }) => {
         {project["project"]}
       </Link>
       <Link
+        className="project-image-container"
         to={`/abbigale-dawn-gravel-portfolio/${project.link}`}
-        className={`${project["link"]}-image`}
       >
         <img
+          className={`${project["link"]}-image`}
           src={
             process.env.PUBLIC_URL +
             "/project-images/" +

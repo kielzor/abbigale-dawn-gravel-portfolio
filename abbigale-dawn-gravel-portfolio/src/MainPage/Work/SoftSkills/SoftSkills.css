@@ -7,7 +7,7 @@
 .soft-skills-containers {
   display: flex;
   font-size: 1vw;
-  padding: 0 0 0 1.5rem;
+  padding: 0 0 0 2vw;
 }
 
 .soft-skills-section-headers {
@@ -41,6 +41,6 @@
 
   .soft-skills-containers {
     font-size: 2vw;
-    padding-left: 0.5rem;
+    padding-left: 1vw;
   }
 }
