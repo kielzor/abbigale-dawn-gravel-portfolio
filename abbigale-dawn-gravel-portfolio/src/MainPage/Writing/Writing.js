@@ -1,9 +1,6 @@
 import "./Writing.css";
 
 export const Writing = () => {
-  const handlePdfDownload = () => {
-    console.log("handle");
-  };
   return (
     <div className="writing-container">
       <div className="writing-header-container">
