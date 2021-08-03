@@ -17,30 +17,42 @@
 
 .writing-header-text {
   font-size: 2.5vw;
-  color: #ffffff;
-  font-weight: 400;
+  color: #cccccc;
+  font-weight: 200;
 }
 
 .main-writing-section {
-  color: #ffffff;
+  color: #cccccc;
   width: 80%;
   font-size: 1.5vw;
-  font-weight: 400;
+  font-weight: 200;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.writing-images-container {
+.writing-example-containers {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 90%;
 }
 
-.writing-image {
-  width: 30%;
-  height: 45vh;
-  background-color: grey;
+.writing-examples {
+  width: 75%;
+}
+
+.download-button {
+  background-color: #a46262;
+  color: #cccccc;
+  font-size: 1vw;
+  width: 18%;
+  border-radius: 15px;
+  cursor: pointer;
+  border: solid 0px #a46262;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.25vh 0;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1200px) {

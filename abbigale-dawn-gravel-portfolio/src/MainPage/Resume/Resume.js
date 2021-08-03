@@ -4,7 +4,7 @@ export const Resume = () => {
   return (
     <div className="resume-section">
       <div className="resume-header">
-        <h1 className="resume-header-text">Resume</h1>
+        <h1 className="resume-header-text">Resumé</h1>
         <h1 className="resume-name-text">Abbigale Dawn Gravel</h1>
       </div>
       <div className="resume-main-container">

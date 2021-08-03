@@ -16,16 +16,16 @@
 }
 
 .music-header-text {
+  color: #cccccc;
   font-size: 2.5vw;
-  color: #ffffff;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .main-music-section {
-  color: #ffffff;
+  color: #cccccc;
   width: 80%;
   font-size: 1.5vw;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .split-music-section-view {
@@ -38,9 +38,13 @@
   width: 55%;
 }
 
-.split-music-section-image {
+.music-section-image-container {
   width: 42%;
-  background-color: grey;
+}
+
+.music-image-container {
+  display: flex;
+  width: 100%;
 }
 
 .music-button-container {
@@ -52,7 +56,7 @@
 
 .music-button {
   background-color: #a46262;
-  color: #ffffff;
+  color: #cccccc;
   font-size: 1vw;
   height: 5vh;
   width: 14vw;

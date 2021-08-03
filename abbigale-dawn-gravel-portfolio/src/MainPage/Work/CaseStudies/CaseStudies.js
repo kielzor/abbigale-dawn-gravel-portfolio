@@ -5,22 +5,19 @@ import "./CaseStudiesCard.css";
 export const CaseStudies = () => {
   const caseStudies = [
     {
-      project: "Bloom",
-      timeframe: "3 week design sprint",
-      team: "Rachael Chagnon, Jenny Duarte, Abbigale Gravel",
-      imageName: "logo",
+      project: "NASA Redesign Sprint",
+      imageName: "nasa-overview",
+      link: "nasa",
     },
     {
-      project: "NASA Redesign of visuals and navigation",
-      timeframe: "3 week design sprint",
-      team: "Abbigale Gravel, Rocky Pitto, Kyle Donlan",
-      imageName: null,
+      project: "App Creaction: InkBook",
+      imageName: "inkbook-overview",
+      link: "inkbook",
     },
     {
-      project: "SOS Outreach Redesign",
-      timeframe: "3 week design sprint",
-      team: "Abbigale Gravel, Rocky Pitto, Kyle Donlan",
-      imageName: null,
+      project: "App Creation: Bloom",
+      imageName: "bloom-overview",
+      link: "bloom",
     },
   ];
 

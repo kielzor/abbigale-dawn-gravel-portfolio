@@ -1,3 +1,5 @@
+import React from "react";
+
 import { MainNavHeader } from "./MainNavHeader/MainNavHeader";
 import { Profile } from "./Profile/Profile";
 import { MobileProfile } from "./Profile/MobileProfile";
@@ -7,13 +9,11 @@ import { TechSkills } from "./Work/TechSkills/TechSkills";
 import { SoftSkills } from "./Work/SoftSkills/SoftSkills";
 import { WorkMainUXUI } from "./Work/WorkMainUXUI/WorkMainUXUI";
 import { Contact } from "./Contact/Contact";
-
-import arrow from "../images/arrow.png";
-
-import "./MainPage.css";
-import React from "react";
 import { Writing } from "./Writing/Writing";
 import { Resume } from "./Resume/Resume";
+
+import arrow from "../images/arrow.png";
+import "./MainPage.css";
 
 export class MainPage extends React.Component {
   constructor() {
@@ -85,7 +85,7 @@ export class MainPage extends React.Component {
                       <h1 className="work-header-text-small">Soft Skills</h1>
                     )}
                     {this.workToDisplay === 3 && (
-                      <h1 className="work-header-text">CASE STUDIES</h1>
+                      <h1 className="work-header-text">Case Studies</h1>
                     )}
                   </div>
                 </div>

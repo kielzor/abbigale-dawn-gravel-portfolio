@@ -1,0 +1,54 @@
+.case-studies-main-container {
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description-container {
+  width: 60%;
+  padding-top: 5vh;
+  color: #cccccc;
+  font-size: 1vw;
+  font-weight: 200;
+}
+
+.case-studies-description-text {
+  margin-bottom: 1rem;
+}
+
+.team-and-type-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.arrow-spacing {
+  width: 10%;
+}
+
+.arrow {
+  cursor: pointer;
+  height: 4rem;
+  min-width: 4rem;
+  padding: 0 3rem;
+  outline: none;
+}
+
+.case-studies-main-section {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-case-studies-content {
+  /* background-color: red; */
+  /* width: 65%; */
+  height: 45vh;
+  margin: 0 10rem;
+}
+
+.left-arrow {
+  transform: rotate(180deg);
+}

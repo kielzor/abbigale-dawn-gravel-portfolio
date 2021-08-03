@@ -4,21 +4,25 @@
 }
 
 .tech-skills-containers {
-  color: #ffffff;
+  color: #cccccc;
 }
 
 .tech-skills-section-headers {
+  color: #cccccc;
   font-size: 2vw;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .tech-skills-subheader {
+  color: #cccccc;
+  font-weight: 200;
   font-size: 1.5vw;
-  font-weight: 400;
 }
 
 .tech-skills-list-container {
   font-size: 1vw;
+  color: #cccccc;
+  font-weight: 200;
   padding: 1rem 0 0 3rem;
 }
 

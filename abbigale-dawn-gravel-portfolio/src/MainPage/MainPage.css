@@ -75,15 +75,15 @@
 }
 
 .work-header-text {
+  color: #cccccc;
   font-size: 2.5vw;
-  color: #ffffff;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .work-header-text-small {
   font-size: 2vw;
-  color: #ffffff;
-  font-weight: 400;
+  color: #cccccc;
+  font-weight: 200;
 }
 
 .work-container {
@@ -100,6 +100,7 @@
   height: 4rem;
   min-width: 4rem;
   padding: 0 3rem;
+  outline: none;
 }
 
 .main-work-section {
@@ -119,7 +120,7 @@
 
 .case-studies-button {
   background-color: #a46262;
-  color: #ffffff;
+  color: #cccccc;
   font-size: 1vw;
   height: 5vh;
   width: 10vw;

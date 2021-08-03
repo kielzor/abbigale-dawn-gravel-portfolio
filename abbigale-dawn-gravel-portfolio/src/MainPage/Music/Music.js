@@ -1,12 +1,14 @@
 import "./Music.css";
 
+import musicImages from "../../images/music-images.png";
+
 export const Music = () => {
   const spotifyLink = "https://open.spotify.com/artist/7qM84pzkfHaWQmxW9KoE8P";
 
   return (
     <div className="music-container">
       <div className="music-header-container">
-        <h1 className="music-header-text">MUSIC</h1>
+        <h1 className="music-header-text">Music</h1>
       </div>
       <div className="main-music-section">
         <p>
@@ -27,7 +29,11 @@ export const Music = () => {
             people interact with art, and an understanding of what it means to
             audibly design.
           </p>
-          <div className="split-music-section-image"></div>
+          <div className="music-section-image-container">
+            <div className="music-image-container">
+              <img src={musicImages} alt="Full band images" />
+            </div>
+          </div>
         </div>
         <div className="music-button-container">
           <button

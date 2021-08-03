@@ -6,9 +6,8 @@
   width: 92%;
 }
 
-/* 
-.project-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-} */
+@media screen and (max-width: 1200px) {
+  .project-text {
+    font-size: 2vw;
+  }
+}

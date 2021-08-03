@@ -1,5 +1,5 @@
 .soft-skills-section {
-  color: #ffffff;
+  color: #cccccc;
   display: flex;
   flex-direction: column;
 }
@@ -12,20 +12,22 @@
 
 .soft-skills-section-headers {
   font-size: 2vw;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .soft-skills-subheader {
   font-size: 1.5vw;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .soft-skills-list-container-left {
   width: 60%;
+  font-weight: 200;
 }
 
 .soft-skills-list-container-right {
   width: 40%;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 1200px) {
