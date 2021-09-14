@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import "./CaseStudies.css";
 
 export const CaseStudiesCard = ({ project }) => {
-  const handleCaseStudiesNav = () => {};
+  const handleCaseStudiesNav = () => {
+    window.scroll({ top: 0, left: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="project" onClick={handleCaseStudiesNav}>
