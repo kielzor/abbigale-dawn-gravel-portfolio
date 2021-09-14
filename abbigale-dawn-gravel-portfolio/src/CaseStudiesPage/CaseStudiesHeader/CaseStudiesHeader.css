@@ -1,0 +1,41 @@
+.nasa-header-image {
+  background-image: url("../../images/nasa-header.png");
+  height: 23vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloom-header-image {
+  background-image: url("../../images/bloom-header.png");
+  height: 23vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inkbook-header-image {
+  background-image: url("../../images/inkbook-header.png");
+  height: 23vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page-link {
+  color: #cccccc;
+  text-decoration: none;
+  position: absolute;
+  padding: 6vh 0 0 3vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-text {
+  color: #cccccc;
+  font-weight: 400;
+  font-size: 2vw;
+}

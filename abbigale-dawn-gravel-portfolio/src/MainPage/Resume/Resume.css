@@ -1,0 +1,94 @@
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-header {
+  background-image: url("../../images/resume-flowers.png");
+  margin-top: 4vh;
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.resume-header-text {
+  color: #cccccc;
+  font-size: 2.5vw;
+  font-weight: 200;
+}
+
+.resume-name-text {
+  font-weight: 200;
+  color: #cccccc;
+}
+
+.resume-main-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #cccccc;
+}
+
+.work-header {
+  font-size: 1.25vw;
+  font-weight: 300;
+}
+
+.resume-main-columns {
+  width: 35%;
+}
+
+.experience-headers {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.work-sub-text {
+  margin: 0;
+  font-weight: 200;
+}
+
+.work-sub-header {
+  font-weight: 200;
+}
+
+.toolbox-headers {
+  color: #cccccc;
+  font-weight: 300;
+}
+
+.mobile-resume-sub-text {
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1200px) {
+  .resume-header {
+    height: 12vh;
+  }
+
+  .resume-header-text {
+    font-size: 4vw;
+  }
+
+  .mobile-resume-sub-text {
+    font-size: 1.75vw;
+  }
+
+  .experience-headers,
+  .toolbox-headers {
+    font-size: 2vw;
+  }
+
+  .work-header {
+    font-size: 2.5vw;
+  }
+
+  .resume-name-text {
+    font-size: 2vw;
+  }
+}

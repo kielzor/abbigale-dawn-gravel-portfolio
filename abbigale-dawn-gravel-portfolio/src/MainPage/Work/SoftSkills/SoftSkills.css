@@ -1,0 +1,46 @@
+.soft-skills-section {
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.soft-skills-containers {
+  display: flex;
+  font-size: 1vw;
+  padding: 0 0 0 2vw;
+}
+
+.soft-skills-section-headers {
+  font-size: 2vw;
+  font-weight: 200;
+}
+
+.soft-skills-subheader {
+  font-size: 1.5vw;
+  font-weight: 200;
+}
+
+.soft-skills-list-container-left {
+  width: 60%;
+  font-weight: 200;
+}
+
+.soft-skills-list-container-right {
+  width: 40%;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1200px) {
+  .soft-skills-section-headers {
+    font-size: 2.5vw;
+  }
+
+  .soft-skills-subheader {
+    font-size: 2vw;
+  }
+
+  .soft-skills-containers {
+    font-size: 2vw;
+    padding-left: 1vw;
+  }
+}

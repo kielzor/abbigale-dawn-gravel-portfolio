@@ -1,0 +1,12 @@
+.case-studies-section {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+  .project-text {
+    font-size: 2vw;
+  }
+}

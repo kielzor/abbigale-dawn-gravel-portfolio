@@ -1,0 +1,15 @@
+.contact-sub-header-text {
+  margin: 0.2vh 0;
+  color: #eeeeee;
+  font-size: 1vw;
+}
+
+.contact-sub-header-text a {
+  color: #eeeeee;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-sub-header-text {
+    font-size: 2vw;
+  }
+}
