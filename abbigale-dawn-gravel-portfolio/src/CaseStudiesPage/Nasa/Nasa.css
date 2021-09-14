@@ -1,6 +1,14 @@
-.case-studies-full-page {
+.nasa-header-to-page-spacing {
   background-color: #000000;
-  height: 100vh;
+  height: 5vh;
   width: 100vw;
-  font-family: "Avenir Next";
+}
+
+.nasa-case-study-full-page {
+  background-image: url("../../images/nasa-case-study.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #000000;
+  height: 3800px;
+  width: 100vw;
 }

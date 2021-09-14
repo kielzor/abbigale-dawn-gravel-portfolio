@@ -1,6 +1,6 @@
 .nasa-header-image {
   background-image: url("../../images/nasa-header.png");
-  height: 23vh;
+  height: 30vh;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -32,6 +32,7 @@
   padding: 6vh 0 0 3vw;
   font-weight: 500;
   cursor: pointer;
+  position: fixed;
 }
 
 .header-text {
