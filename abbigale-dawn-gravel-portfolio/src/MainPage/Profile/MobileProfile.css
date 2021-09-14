@@ -1,0 +1,48 @@
+.mobile-profile-section {
+  width: 100%;
+}
+
+.mobile-bio-header-container {
+  background-image: url("../../images/hero-flowers.png");
+  background-size: cover;
+  width: 100%;
+  height: 15vh;
+}
+
+.mobile-top-bio-text {
+  padding: 6vh 0 0 0;
+}
+
+.mobile-bio-text {
+  color: #afafaf;
+  font-size: 3vw;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.mobile-bold-name-text {
+  color: #eeeeee;
+}
+
+.mobile-bold-text {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.mobile-bold-text:hover {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.mobile-profile-pic-container {
+  width: 100%;
+  display: flex;
+  padding: 5vh 0;
+  justify-content: center;
+}
+
+.mobile-profile-pic {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 4vh;
+}

@@ -1,0 +1,93 @@
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-header-container {
+  background-image: url("../../images/music-flowers.png");
+  margin-top: 4vh;
+  width: 100%;
+  height: 24vh;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.music-header-text {
+  color: #cccccc;
+  font-size: 2.5vw;
+  font-weight: 200;
+}
+
+.main-music-section {
+  color: #cccccc;
+  width: 80%;
+  font-size: 1.5vw;
+  font-weight: 200;
+}
+
+.split-music-section-view {
+  display: flex;
+  height: 30vh;
+  justify-content: space-between;
+}
+
+.split-music-section-text {
+  width: 55%;
+}
+
+.music-section-image-container {
+  width: 42%;
+}
+
+.music-image-container {
+  display: flex;
+  width: 100%;
+}
+
+.music-image {
+  width: 100%;
+}
+
+.music-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.music-button {
+  background-color: #a46262;
+  color: #cccccc;
+  font-size: 1vw;
+  height: 5vh;
+  width: 14vw;
+  border-radius: 15px;
+  cursor: pointer;
+  border: solid 0px #a46262;
+}
+
+@media screen and (max-width: 1200px) {
+  .music-header-container {
+    height: 10vh;
+  }
+
+  .music-header-text {
+    font-size: 4vw;
+  }
+
+  .main-music-section {
+    font-size: 2vw;
+  }
+
+  .music-button {
+    font-size: 2vw;
+    width: 24vw;
+  }
+
+  .split-music-section-view {
+    height: 20vh;
+  }
+}

@@ -1,0 +1,47 @@
+.profile-section {
+  width: 100%;
+}
+
+.bio-header-container {
+  background-image: url("../../images/hero-flowers.png");
+  background-size: cover;
+  width: 100%;
+  height: 24vh;
+}
+
+.top-bio-text {
+  padding: 10vh 0 2vh 0;
+}
+
+.bio-text {
+  color: #afafaf;
+  font-size: 2vw;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.bold-name-text {
+  color: #eeeeee;
+}
+
+.bold-text {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.bold-text:hover {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.profile-pic-container {
+  width: 100%;
+  display: flex;
+  padding: 4vh 0;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 60%;
+  text-align: center;
+}
