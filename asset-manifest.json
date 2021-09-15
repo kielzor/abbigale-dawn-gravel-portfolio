@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/abbigale-dawn-gravel-portfolio/static/css/main.05f1cfce.chunk.css",
-    "main.js": "/abbigale-dawn-gravel-portfolio/static/js/main.fb3172c9.chunk.js",
-    "main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/main.fb3172c9.chunk.js.map",
+    "main.js": "/abbigale-dawn-gravel-portfolio/static/js/main.d924eb66.chunk.js",
+    "main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/main.d924eb66.chunk.js.map",
     "runtime-main.js": "/abbigale-dawn-gravel-portfolio/static/js/runtime-main.66ed72ae.js",
     "runtime-main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/runtime-main.66ed72ae.js.map",
     "static/js/2.da9c860f.chunk.js": "/abbigale-dawn-gravel-portfolio/static/js/2.da9c860f.chunk.js",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.66ed72ae.js",
     "static/js/2.da9c860f.chunk.js",
     "static/css/main.05f1cfce.chunk.css",
-    "static/js/main.fb3172c9.chunk.js"
+    "static/js/main.d924eb66.chunk.js"
   ]
 }
