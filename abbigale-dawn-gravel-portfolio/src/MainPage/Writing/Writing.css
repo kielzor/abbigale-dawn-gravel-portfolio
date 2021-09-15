@@ -18,14 +18,14 @@
 .writing-header-text {
   font-size: 2.5vw;
   color: #cccccc;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .main-writing-section {
   color: #cccccc;
   width: 80%;
   font-size: 1.5vw;
-  font-weight: 200;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;

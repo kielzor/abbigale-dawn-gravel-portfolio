@@ -19,11 +19,11 @@
 .resume-header-text {
   color: #cccccc;
   font-size: 2.5vw;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .resume-name-text {
-  font-weight: 200;
+  font-weight: 300;
   color: #cccccc;
 }
 
@@ -50,11 +50,11 @@
 
 .work-sub-text {
   margin: 0;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .work-sub-header {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .toolbox-headers {
@@ -63,7 +63,7 @@
 }
 
 .mobile-resume-sub-text {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1200px) {
