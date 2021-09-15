@@ -10,7 +10,7 @@ export const CaseStudies = () => {
       link: "nasa",
     },
     {
-      project: "App Creaction: InkBook",
+      project: "App Creation: InkBook",
       imageName: "inkbook-overview",
       link: "inkbook",
     },
