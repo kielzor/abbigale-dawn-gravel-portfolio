@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abbigale-dawn-gravel-portfolio/static/css/main.2a006b18.chunk.css",
+    "main.css": "/abbigale-dawn-gravel-portfolio/static/css/main.05f1cfce.chunk.css",
     "main.js": "/abbigale-dawn-gravel-portfolio/static/js/main.fb3172c9.chunk.js",
     "main.js.map": "/abbigale-dawn-gravel-portfolio/static/js/main.fb3172c9.chunk.js.map",
     "runtime-main.js": "/abbigale-dawn-gravel-portfolio/static/js/runtime-main.66ed72ae.js",
@@ -10,7 +10,7 @@
     "static/js/3.58f8d14e.chunk.js": "/abbigale-dawn-gravel-portfolio/static/js/3.58f8d14e.chunk.js",
     "static/js/3.58f8d14e.chunk.js.map": "/abbigale-dawn-gravel-portfolio/static/js/3.58f8d14e.chunk.js.map",
     "index.html": "/abbigale-dawn-gravel-portfolio/index.html",
-    "static/css/main.2a006b18.chunk.css.map": "/abbigale-dawn-gravel-portfolio/static/css/main.2a006b18.chunk.css.map",
+    "static/css/main.05f1cfce.chunk.css.map": "/abbigale-dawn-gravel-portfolio/static/css/main.05f1cfce.chunk.css.map",
     "static/js/2.da9c860f.chunk.js.LICENSE.txt": "/abbigale-dawn-gravel-portfolio/static/js/2.da9c860f.chunk.js.LICENSE.txt",
     "static/media/CaseStudiesHeader.css": "/abbigale-dawn-gravel-portfolio/static/media/nasa-header.79acdd10.png",
     "static/media/MainPage.css": "/abbigale-dawn-gravel-portfolio/static/media/uxui-header-flowers.a081a022.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.66ed72ae.js",
     "static/js/2.da9c860f.chunk.js",
-    "static/css/main.2a006b18.chunk.css",
+    "static/css/main.05f1cfce.chunk.css",
     "static/js/main.fb3172c9.chunk.js"
   ]
 }
