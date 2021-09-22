@@ -1,6 +1,21 @@
-.case-studies-full-page {
+.bloom-header-to-page-spacing {
   background-color: #000000;
-  height: 100vh;
+  height: 5vh;
   width: 100vw;
-  font-family: "Avenir Next";
+}
+
+.bloom-case-study-full-page {
+  background-image: url("../../images/bloom-case-study.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  background-color: #000000;
+  height: 4000px;
+  width: 100vw;
+}
+
+.bloom-bottom-spacing {
+  height: 10vh;
+  width: 100vw;
+  background-color: #000000;
 }
